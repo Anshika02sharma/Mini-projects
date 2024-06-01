@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.border-container {
+    border: 10px solid black;
+    padding: 20px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+.login-box {
+    background-color: black;
+    border: 5px solid white;
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+label {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+input {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: calc(100% - 12px); /* Adjust width to account for padding and border */
+    box-sizing: border-box;
+}
+input[type="button"] {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    label {
+        font-size: 18px;
+    }
+    input, input[type="button"] {
+        font-size: 18px;
+    }
+    .login-box {
+        padding: 15px;
+        border-width: 3px;
+    }
+    .border-container {
+        padding: 10px;
+        border-width: 5px;
+    }
+}
+@media (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+    label {
+        font-size: 16px;
+    }
+    input, input[type="button"] {
+        font-size: 16px;
+    }
+    .login-box {
+        padding: 10px;
+        border-width: 2px;
+    }
+    .border-container {
+        padding: 5px;
+        border-width: 3px;
+    }
+}
