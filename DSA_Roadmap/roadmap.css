@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 40px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-red-600 {
+    background-color: #DC2626;
+}
+
+.bg-purple-600 {
+    background-color: #9333EA;
+}
+
+.bg-orange-600 {
+    background-color: #F97316;
+}
+
+.bg-yellow-600 {
+    background-color: #F59E0B;
+}
+
+.bg-teal-600 {
+    background-color: #14B8A6;
+}
+
+.bg-green-600 {
+    background-color: #16A34A;
+}
+
+.bg-blue-600 {
+    background-color: #2563EB;
+}
+
+.bg-blue-500 {
+    background-color: #3B82F6;
+}
+
+h1, p {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2.road-map {
+    font-size: 40px;
+    margin-top: 1rem;
+}
+
+.roadmap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(50% - 1rem); 
+    padding: 1rem;
+    text-align: center;
+    border: 5px solid white;
+}
+
+.box h2 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+.box ul li {
+    font-size: 40px;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
